@@ -1,38 +1,38 @@
 # goit-de-hw-05
 
-Навчальний проєкт із залежністю `kafka-python`.
+An educational project that uses the `kafka-python` dependency.
 
-## Вимоги
+## Requirements
 
 - Python 3
 - `pip`
 - Bash
 
-## Встановлення залежностей
+## Installing dependencies
 
-Усі Python-залежності перелічені у файлі `requirements.txt`. Скрипт `run.sh` встановлює їх командою `pip install -r requirements.txt`.
+All Python dependencies are listed in `requirements.txt`. The `run.sh` script installs them with `pip install -r requirements.txt`.
 
-Рекомендовано створити та активувати віртуальне середовище:
+We recommend creating and activating a virtual environment:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-Після цього запустіть скрипт із кореневої папки проєкту:
+Then run the script from the project root:
 
 ```bash
 chmod +x run.sh
 ./run.sh
 ```
 
-Якщо файл уже має дозвіл на виконання, крок із `chmod` можна пропустити. Також можна запустити скрипт через Bash без зміни дозволів:
+If the file is already executable, you can skip the `chmod` step. You can also run the script with Bash without changing its permissions:
 
 ```bash
 bash run.sh
 ```
 
-Поточний `requirements.txt` встановлює `kafka-python` версії `3.0.13`. Після завершення встановлення можна перевірити пакет командою:
+The current `requirements.txt` installs `kafka-python` version `3.0.13`. After installation, you can verify the package with:
 
 ```bash
 python -m pip show kafka-python
