@@ -1,7 +1,7 @@
 from kafka.REDACTED import KafkaAdminClient, NewTopic
 from configs import kafka_config
 
-TOPICS_NAME = "IoT_Topic_Ivan"
+TOPICS_NAME = "IoT_Topic_ivcoder"
 topics_names = []
 ids = ['building_sensors', 'temperature_alerts', 'humidity_alerts']
 
