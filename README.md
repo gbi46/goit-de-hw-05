@@ -12,6 +12,8 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+Скопіюйте `.env.example` у `.env` і вкажіть у ньому Kafka-облікові дані. Файл `.env` ігнорується Git.
+
 ## Запуск скриптів
 
 Передайте `run.sh` назву потрібного скрипту без розширення:
